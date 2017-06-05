@@ -1,0 +1,117 @@
+/* Import the google web fonts you want to use */
+
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
+/* Card Based Layout - Base styles */
+
+body {
+	background: hsl(0, 0%, 90%);
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+textarea {
+	color: #404040;
+	font-family: 'Comfortaa', Arial, sans-serif;
+	font-size: 30px;
+	line-height: 1.5;
+    flex-direction:column-reverse;
+    flex-wrap: wrap-reverse
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+  font-family: 'Patua One', serif;
+  letter-spacing: 2px;
+}*/
+
+h2 {
+  font-size: 1rem;
+  color: #007489;
+}
+
+p {
+	margin-bottom: 1.5em;
+  color: #898989;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+.masthead {
+	background-color: #000000;
+}
+
+
+.site-title {
+	color: greenyellow;
+}
+
+img {
+	border: 0;
+	width: 350px;
+	height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.card {
+	background: black;
+	margin-bottom: 2em;
+    padding: 15px;
+}
+
+.card a {
+	color: white;
+	text-decoration: none;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 100%;
+}
+
+/* Flexbox stuff */
+
+.cards {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction:row;
+}
+
+
